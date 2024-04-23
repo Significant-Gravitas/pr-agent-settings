@@ -46,7 +46,7 @@ minimal_commits_for_incremental_review=0
 minimal_minutes_for_incremental_review=0
 enable_help_text=true # Determines whether to include help text in the PR review. Enabled by default.
 # auto approval
-enable_auto_approval=true
+enable_auto_approval=false
 maximal_review_effort=5
 
 
