@@ -1,6 +1,7 @@
 [pr_reviewer]
 enable_review_labels_effort = true
 enable_auto_approval = true
+maximal_review_effort = 2
 
 
 [pr_code_suggestions]
