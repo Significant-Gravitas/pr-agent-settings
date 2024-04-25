@@ -12,7 +12,8 @@ pr_commands = [
     "/describe",
     "/reflect_and_review --pr_reviewer.num_code_suggestions=3",
     "/improve",
-    "/update_changelog"
+    "/update_changelog",
+    "/analyze"
   ]
 
 [pr_code_suggestions]
