@@ -12,13 +12,10 @@ num_code_suggestions=3
 pr_commands = [
     "/describe",
     "/review",
-    "/improve",
-    "/update_changelog",
-    "/analyze"
   ]
 
 [pr_code_suggestions]
-commitable_code_suggestions=true
+commitable_code_suggestions=false
 num_code_suggestions=0
 rank_suggestions=true
 enable_help_text=false
