@@ -6,7 +6,7 @@ enable_review_labels_effort = true
 enable_auto_approval = false
 maximal_review_effort = 0
 enable_help_text=false
-num_code_suggestions=3
+num_code_suggestions=0
 
 [github_app]
 pr_commands = [
