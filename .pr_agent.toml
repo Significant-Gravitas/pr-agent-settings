@@ -4,7 +4,7 @@ enable_help_text=false
 [pr_reviewer]
 enable_review_labels_effort = true
 enable_auto_approval = false
-maximal_review_effort = 0
+maximal_review_effort = 3
 enable_help_text=false
 num_code_suggestions=0
 
