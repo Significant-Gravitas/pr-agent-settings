@@ -19,3 +19,8 @@ num_code_suggestions=0
 rank_suggestions=true
 enable_help_text=false
 suggestions_score_threshold=8
+
+[checks] # /checks (pro feature) #
+enable_auto_checks_feedback=false
+persistent_comment=false
+enable_help_text=false
