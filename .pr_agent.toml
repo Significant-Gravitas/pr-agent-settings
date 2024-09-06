@@ -10,9 +10,7 @@ num_code_suggestions=0
 
 [github_app]
 pr_commands = [
-    "/describe",
-    "/review",
-    "/improve"
+    "/review --pr_reviewer.num_code_suggestions=0",
   ]
 
 [pr_code_suggestions]
