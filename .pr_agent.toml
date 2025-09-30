@@ -1,26 +1,27 @@
+[config]
+enable_auto_approval=false
+add_repo_metadata = true
+
 [pr_description]
 enable_help_text=false
 
 [pr_reviewer]
-enable_review_labels_effort = true
-enable_auto_approval = false
-maximal_review_effort = 3
+enable_review_labels_effort=true
 enable_help_text=false
-num_code_suggestions=0
+
 
 [github_app]
 pr_commands = [
-    "/review --pr_reviewer.num_code_suggestions=0",
-  ]
+    "/review",
+]
 
 [pr_code_suggestions]
 commitable_code_suggestions=false
 num_code_suggestions=0
-rank_suggestions=true
 enable_help_text=false
 suggestions_score_threshold=8
 
-[checks] # /checks (pro feature) #
+[checks]
 enable_auto_checks_feedback=false
 persistent_comment=false
 enable_help_text=false
